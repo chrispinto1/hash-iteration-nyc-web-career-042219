@@ -10,8 +10,8 @@ def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |x|
     name = x[1].split('')
-    puts x[0].to_str
-    if x[0] == "suite_a" && name.first == "A"
+    puts x[0]
+    if x[0] == suite_a && name.first == "A"
       puts x[1]
     end
   end
