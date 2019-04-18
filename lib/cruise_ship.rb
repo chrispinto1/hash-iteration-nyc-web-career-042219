@@ -10,7 +10,6 @@ def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |x|
     name = x[1].split('')
-     puts name.first
     if x[0] == "suite_a" && name.first == "A"
       puts x[1]
     end
