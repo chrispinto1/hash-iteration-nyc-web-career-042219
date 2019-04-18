@@ -12,7 +12,7 @@ def select_winner(passengers)
     name = x[1].split('')
      puts name.first
     if x[0] == "suite_a" && name.first == "A"
-      return 
+      return x[1]
     end
   end
 end
