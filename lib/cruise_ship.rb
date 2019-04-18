@@ -9,8 +9,8 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |x|
-    if x[0] == "suite_a"
-      puts hello
+    if x[0] == "suite_a" && x[1].first == "A"
+      puts 
     end
   end
 end
