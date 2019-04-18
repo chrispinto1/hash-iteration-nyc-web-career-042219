@@ -12,7 +12,7 @@ def select_winner(passengers)
     name = x[1].split('')
      puts name.first
     if x[0] == "suite_a" && name.first == "A"
-      putsx[1]
+      puts x[1]
     end
   end
 end
