@@ -11,8 +11,8 @@ def select_winner(passengers)
   passengers.each do |x|
     name = x[1].split('')
      puts name.first
-    if x[0] == "suite_a" && name == "A"
-      return x[1]
+    if x[0] == "suite_a" && name.first == "A"
+      return 
     end
   end
 end
